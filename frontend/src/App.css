@@ -1,0 +1,58 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #5d54a4, #7c78b8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  background-color: #f7f7f7;
+  color: #333;
+  border-bottom: none;
+}
+.card-body {
+  padding: 2rem;
+}
+.left-section {
+  background-color: white;
+  padding: 2rem;
+  border-right: 1px solid #ddd;
+}
+.right-section {
+  background-color: #6a67d7;
+  padding: 2rem;
+  color: white;
+}
+.right-section input,
+.right-section select,
+.right-section textarea {
+  background-color: #6a67d7;
+  color: white;
+  border: 1px solid #ddd;
+}
+.form-check-input:checked {
+  background-color: white;
+  border-color: white;
+}
+.btn-primary {
+  background-color: white;
+  color: #6a67d7;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #ddd;
+  color: #6a67d7;
+}
+
