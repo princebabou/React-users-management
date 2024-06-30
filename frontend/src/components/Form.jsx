@@ -323,7 +323,7 @@ function Form() {
                 Register Badge
               </button>
 
-              <Link to={`/list`} className="btn btn-info btn-sm">
+              <Link to={`/list`} className="btn btn-primary w-40 rounded-5">
                 View Users
               </Link>
 
